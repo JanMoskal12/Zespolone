@@ -20,5 +20,6 @@ class zespolona
 
 };
 ostream &operator<<(ostream &os, zespolona z);
+zespolona operator+(zespolona a, zespolona b);
 
 #endif // ZESPOLONA_H
