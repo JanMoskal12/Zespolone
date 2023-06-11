@@ -1,6 +1,8 @@
 #ifndef ZESPOLONA_H
 #define ZESPOLONA_H
 
+#include <iostream>
+
 
 class zespolona
 {
@@ -14,5 +16,6 @@ class zespolona
         double _y;
 
 };
+ostream &operator<<(ostream &os, zespolona z);
 
 #endif // ZESPOLONA_H
