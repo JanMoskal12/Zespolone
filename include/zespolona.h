@@ -3,12 +3,15 @@
 
 #include <iostream>
 
+using namespace std;
 
 class zespolona
 {
     public:
 
         zespolona(double x = 0, double y = 0);
+        double x() const;
+        double y() const;
 
     private:
 
