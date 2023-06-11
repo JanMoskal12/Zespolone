@@ -1,11 +1,6 @@
 #include "zespolona.h"
 
-zespolona::zespolona()
+zespolona::zespolona(double x, double y)
 {
-    //ctor
-}
 
-zespolona::~zespolona()
-{
-    //dtor
 }
